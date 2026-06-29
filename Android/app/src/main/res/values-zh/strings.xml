@@ -102,6 +102,7 @@
         <item>中文</item>
         <item>葡萄牙语（巴西）</item>
         <item>意大利语</item>
+        <item>Russian</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -113,6 +114,7 @@
         <item>zh</item>
         <item>pt-BR</item>
         <item>it</item>
+        <item>ru</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ 附近可能有智能眼镜</string>

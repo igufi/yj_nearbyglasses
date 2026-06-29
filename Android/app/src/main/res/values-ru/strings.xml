@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Nearby Glasses</string>
+    <string name="settings">Настройки</string>
+    <string name="notLogging">Журналирование отключено. Вы увидите только уведомления, если что-то будет обнаружено.</string>
+    <string name="startScanning">Начать сканирование</string>
+    <string name="stopScanning">Остановить сканирование</string>
+    <string name="notScanning">Сканирование не выполняется</string>
+    <string name="notScanningCanary">Сканирование не выполняется</string>
+    <string name="textScanning">Сканирование активно - вы получите уведомление, если поблизости будут обнаружены умные очки</string>
+    <string name="textScanningCanary">Сканирование активно 𓅪 </string>
+    <string name="titleCategoryAbout">О приложении</string>
+    <string name="start_scanning">Начать сканирование</string>
+    <string name="stop_scanning">Остановить сканирование</string>
+    <string name="scanning">Поиск устройств…</string>
+    <string name="not_scanning">Сканирование не выполняется<br/></string>
+    <string name="clear">Очистить</string>
+    <string name="export">Экспорт</string>
+    <string name="clearLog">Очистить журнал</string>
+    <string name="exportLog">Экспортировать журнал</string>
+    <string name="debug_log">Журнал отладки</string>
+    <string name="glasses_detected">👓 Предупреждение: поблизости, возможно, есть умные очки</string>
+    <string name="info_text">Это приложение уведомляет вас, когда поблизости могут находиться умные очки. Оно использует идентификаторы компаний в Bluetooth-данных, которые передают такие устройства. Поэтому возможны ложные срабатывания, например от VR-гарнитур. Будьте осторожны, подходя к человеку в очках поблизости: несмотря на предупреждение приложения, это могут быть обычные очки.</string>
+    <string name="info_textCanary">Эта канарейка показывает, когда поблизости могут быть умные очки. Она ищет Bluetooth-идентификаторы. Возможны ложные срабатывания, например от VR-гарнитур. Будьте осторожны, подходя к человеку в очках поблизости: это могут быть обычные очки.</string>
+    <string name="warning_title">⚠️ ВНИМАНИЕ! ⚠️ </string>
+    <string name="warning_text">ПРЕСЛЕДОВАНИЕ человека из-за предположения, что он носит скрытое устройство наблюдения, может быть уголовным преступлением. Оно может оказаться даже более серьезным правонарушением, чем использование такого устройства. Проконсультируйтесь с юристом о применимых местных законах.\n⚠️ НИКОГО НЕ ПРЕСЛЕДУЙТЕ. ⚠️ </string>
+    <string name="titleCategoryScanningSettings">Настройки сканирования</string>
+    <string name="titleForeground">Включить службу переднего плана</string>
+    <string name="summaryForeground">Запускать сканирование как службу переднего плана, чтобы система не остановила его.</string>
+    <string name="titleCooldown">Задержка уведомления/канарейки (мс)</string>
+    <string name="summaryCooldown">Сейчас: %1$s мс. Минимальное время между уведомлениями или изменениями канарейки в миллисекундах (по умолчанию: 10000 мс = 10 с)</string>
+    <string name="titleThreshold">Порог RSSI (dBm)</string>
+    <string name="summaryThreshold">Сейчас: %1$s dBm. Обнаруживать только устройства с RSSI выше этого порога (по умолчанию: -75 dBm, ~3-10 м)</string>
+    <string name="titleCategoryNotifications">Настройки уведомлений</string>
+    <string name="titleNotifications">Включить уведомления</string>
+    <string name="summaryNotifications">Показывать уведомления при обнаружении устройств умных очков</string>
+    <string name="titleCategoryLogging">Настройки журнала</string>
+    <string name="titleLogging">Показывать журнал</string>
+    <string name="summaryLogging">Показывать журнал обнаружений на главном экране. Журнал всегда хранится локально для экспорта.</string>
+    <string name="titleDebug">Отладка</string>
+    <string name="summaryDebug">Включить все Company ID, найденные в журнале. Уведомлять по-прежнему только об умных очках.</string>
+    <string name="titleDebugSize">Максимум строк журнала</string>
+    <string name="summaryDebugSize">Сейчас: %1$s. Максимальное число строк, сохраняемых в журнале отладки.</string>
+    <string name="titleDebugAdvonly">Только BLE ADV</string>
+    <string name="summaryDebugAdvonly">Если включено, в журнале отладки показываются только строки BLE-рекламы (ADV).</string>
+    <string name="nothing_to_export">Нет обнаружений для экспорта</string>
+    <string name="titleDebugCompanyIds">Переопределить Company ID</string>
+    <string name="summaryDebugCompanyIds">Сейчас: %1$s. Если ввести один или несколько ID для обнаружения в little-endian шестнадцатеричной записи, они будут использоваться вместо значений по умолчанию ("0x01AB,0x058E,0x0D53"). Для новых ID также будут срабатывать уведомления.</string>
+    <string name="none_in_parentheses">(нет)</string>
+    <string name="summaryApp">Обнаруживает умные очки через Bluetooth LE</string>
+    <string name="titleMethod">Метод обнаружения</string>
+    <string name="summaryMethod">Обнаружение основано на Company ID в рекламных BLE-кадрах и совпадениях имени устройства.</string>
+    <string name="titleLiability">Ответственность и лицензия</string>
+    <string name="pref_language_title">Язык</string>
+    <string name="pref_language_summary">Выберите язык приложения</string>
+    <string-array name="pref_language_entries">
+        <item>Как в системе</item>
+        <item>Английский</item>
+        <item>Немецкий</item>
+        <item>Швейцарский немецкий</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Китайский</item>
+        <item>Португальский (Бразилия)</item>
+        <item>Итальянский</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item></item>
+        <item>en</item>
+        <item>de</item>
+        <item>de-CH</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>pt-BR</item>
+        <item>it</item>
+        <item>ru</item>
+    </string-array>
+    <string name="notifyText">⚠️ Поблизости, возможно, есть умные очки</string>
+    <string name="channel_detection_name">Оповещения об обнаружении умных очков</string>
+    <string name="channel_detection_description">Оповещения при обнаружении умных очков</string>
+    <string name="channel_service_name">Фоновая служба сканирования</string>
+    <string name="channel_service_description">Показывает, когда приложение сканирует в фоне</string>
+    <string name="notification_detected_title">@string/notifyText</string>
+    <string name="notification_detected_text">%1$s обнаружено (RSSI: %2$d dBm)</string>
+    <string name="notification_bigtext">Устройство: %1$s\nRSSI: %2$d dBm\nПричина: %3$s\nКомпания: %4$s\nВНИМАНИЕ! ПРЕСЛЕДОВАНИЕ человека из-за предположения, что он носит скрытое устройство наблюдения, может быть уголовным преступлением.\nНИКОГО НЕ ПРЕСЛЕДУЙТЕ.</string>
+    <string name="notification_unknown_device">Неизвестное устройство</string>
+    <string name="notification_service_title">Поиск умных очков поблизости</string>
+    <string name="notification_service_text">Фоновое сканирование активно</string>
+    <string name="reason_meta_company_id">Company ID Meta (%1$s)</string>
+    <string name="reason_essilor_company_id">Company ID EssilorLuxottica (%1$s)</string>
+    <string name="reason_snap_company_id">Company ID Snap (%1$s)</string>
+    <string name="reason_name_contains">Имя устройства содержит \'%1$s\'</string>
+    <string name="company_unknown">Неизвестно (%1$s)</string>
+    <string name="unknown_device">Неизвестно</string>
+    <string name="clipboard_copied">Скопировано: %1$s</string>
+    <string name="toast_bluetooth_required">Bluetooth должен быть включен</string>
+    <string name="toast_bluetooth_not_supported">Bluetooth не поддерживается на этом устройстве</string>
+    <string name="dialog_permissions_title">Нужны разрешения</string>
+    <string name="dialog_permissions_message">Для поиска устройств приложению нужны разрешения Bluetooth и местоположения. Предоставьте их в настройках.</string>
+    <string name="dialog_open_settings">Открыть настройки</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_clear_log_title">Очистить журнал</string>
+    <string name="dialog_clear_log_message">Вы уверены, что хотите удалить все журналы обнаружений?</string>
+    <string name="dialog_clear">Очистить</string>
+    <string name="toast_log_cleared">Журнал очищен</string>
+    <string name="chooser_export_log">Экспорт журнала обнаружений</string>
+    <string name="toast_export_error">Ошибка экспорта журнала: %1$s</string>
+    <string name="dbg_export_error">Ошибка экспорта журнала</string>
+    <string name="log_unknown_device">Неизвестно</string>
+    <string name="log_debug_prefix">ОТЛАДКА</string>
+    <string name="log_service_created">Служба создана</string>
+    <string name="log_already_scanning">Сканирование уже выполняется</string>
+    <string name="log_scanning_started">Сканирование успешно запущено</string>
+    <string name="log_scanning_failed">Не удалось запустить сканирование</string>
+    <string name="log_notification_suppressed">Обнаружение произошло в период задержки, уведомление подавлено</string>
+    <string name="log_service_destroyed">Служба уничтожена</string>
+    <string name="reason_debug_override_company_id">Переопределение отладки: Company ID %1$s совпал</string>
+    <string name="company_unknown_plain">Неизвестно</string>
+    <string name="placeholder_none">нет</string>
+    <string name="dbg_scan_failed">Сканирование завершилось ошибкой с кодом: %1$d</string>
+    <string name="dbg_bluetooth_disabled">Bluetooth не включен</string>
+    <string name="dbg_already_scanning">Сканирование уже выполняется</string>
+    <string name="dbg_ble_not_available">BLE-сканер недоступен</string>
+    <string name="dbg_ble_started_verbose">BLE-сканирование запущено. Порог RSSI=%1$d, режим=LOW_LATENCY</string>
+    <string name="dbg_ble_started_simple">BLE-сканирование запущено с порогом RSSI: %1$d dBm</string>
+    <string name="dbg_ble_stopped">BLE-сканирование остановлено</string>
+    <string name="dbg_ble_start_error">Ошибка запуска BLE-сканирования</string>
+    <string name="dbg_ble_stop_error">Ошибка остановки BLE-сканирования</string>
+    <string name="dbg_smart_glasses_detected">обнаружены умные очки: %1$s (%2$d dBm)</string>
+    <string name="dbg_override_match">Переопределение отладки: Company ID %1$s совпал</string>
+    <string name="dbg_placeholder_none">нет</string>
+    <string name="titleCategoryMode">Режим</string>
+    <string name="summaryCanaryMode">В режиме канарейки вы не будете получать системные уведомления, но увидите птицу, которая показывает, что умные очки поблизости пока не обнаружены. Если рядом появятся умные очки, птица заметно изменится.</string>
+    <string name="titleCanaryMode">Режим канарейки</string>
+</resources>
