@@ -1,5 +1,5 @@
-"In this document, we collect smart glasses identifiers, see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/56"
-" "
+,"In this document, we collect smart glasses identifiers, see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/56",,
+,,," "
 Product                , identification                                     , source(s)                                                              , notes
 Meta/RayBan            , manufacturer_ID=0x01AB                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   , 
 Meta/RayBan            , manufacturer_ID=0x058E                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   ,
