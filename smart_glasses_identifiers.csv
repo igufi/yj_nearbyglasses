@@ -1,9 +1,9 @@
 "In this document, we collect smart glasses identifiers, see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/56",,,
 " ",,,
 Product                , identification                                     , source(s)                                                              , notes
-Meta/RayBan            , manufacturer_ID=0x01AB                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)
-Meta/RayBan            , manufacturer_ID=0x058E                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)
-Snap                   , manufacturer_ID=0x0D53                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)
+Meta/RayBan            , manufacturer_ID=0x01AB                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   , 
+Meta/RayBan            , manufacturer_ID=0x058E                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   ,
+Snap                   , manufacturer_ID=0x0D53                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   ,
 Nilox Smart AI Glasses , primary_UUID=7905FFF0-B5CE-4E99-A40F-4B1E122D00D0  , [HeyCyan SDK](https://github.com/ebowwa/HeyCyanSmartGlassesSDK)        , There seems to be no fixed manufacturer ID
                        , device_name=HeyCyan-WXYZ                           , [HeyCyan SDK](https://github.com/ebowwa/HeyCyanSmartGlassesSDK)        , There seems to be no fixed manufacturer ID
 Rogbird VisionPro      , manufacturer_ID=0x05D6                             , [BT SIG](https://www.bluetooth.com/specifications/assigned-numbers/)   , Zhuhai Jieli Technology Co., but the VisionPro uses the Jieli JL7018 Bluetooth chipset
