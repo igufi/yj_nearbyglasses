@@ -98,6 +98,7 @@
         <item>Chinesisch</item>
         <item>Portugiesisch (Brasilie)</item>
         <item>Italienisch</item>
+        <item>Russian</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -109,6 +110,7 @@
         <item>zh</item>
         <item>pt-BR</item>
         <item>it</item>
+        <item>ru</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Smart Glasses sind villicht in dr Neechi</string>

@@ -102,6 +102,7 @@
         <item>Cinese</item>
         <item>Portoghese (Brasile)</item>
         <item>Italiano</item>
+        <item>Russian</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -112,6 +113,7 @@
         <item>es</item>
         <item>zh</item>
         <item>it</item>
+        <item>ru</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Degli smart Glasses potrebbero essere nelle vicinanze</string>
