@@ -80,11 +80,11 @@ Service UUIDs:
   - `0x058E` for `Meta Platforms Technologies, LLC`
   - `0x0D53` for `Luxottica Group S.p.A` (who manufactures the Meta Ray-Bans)
   - `0x03C2` for `Snapchat, Inc.` (that makes SNAP Spectacles)
-    
+  - `0x05D6` for `Zhuhai Jieli Technology Co` (who makes Rogbird VisionPro and Rollme VistaView)
   They are **immutable and mandatory**. Of course, Meta and other manufacturers also have other products that come with Bluetooth and therefore their ID, e.g. VR Headsets. Therefore, using these company ID codes for the app's scanning process is prone to false positives. But if you can't see someone wearing an Occulus Rift around you and there are no buildings where they could hide, chances are good that it's smart glasses instead.
 - During pairing, the smart glasses usually emit their product name, so we can scan for that, too. But it's rare we will see that in the field. People with the intention to use smart glasses in bars, pubs, on the street, and elsewhere usually prepare for that beforehand.
 - When the app recognised a Bluetooth Low Energy (BLE) device with a sufficient signal strength (see RSI below), it will push an alert message. This shall help you to act accordingly.
-
+- Furthermore, we scan for device names broadcasted, e.g. `rayban`, `ray-ban`, or `HeyCyan`. `HeyCyan` is [a famous SDK for smart glasses of various brands](https://github.com/ebowwa/HeyCyanSmartGlassesSDK). Among those *HeyCyan* devices, you may also find the Nilox Smart AI Glasses which are sold by ALDI and Hofer(in Austria). To harden this, we also look for the `primary_UUID`, a service identifier which is fixed to the software side of those glasses (`7905FFF0-B5CE-4E99-A40F-4B1E122D00D0`). While this could change in the future, it is unlikely as it would render older devices unusable, therefore we might just add more UUIDs to the scaning routine then.
 ## Features
 - The app *Nearby Glasses* shows a notification when smart glasses are nearby (that means, a BLE device of one of those company IDs mentioned above)
 - **Nearby** means, the RSSI (signal strength) is less than or equal to a given value: -75 dBm by default. This default value corresponds to a medium distance and an ok-ish signal.
@@ -120,15 +120,19 @@ RSSI drops roughly according to<br/>
    - French
    - Spanish
    - Chinese (partially)
-   - more to come, eventually
+   - Italian
+   - Portugese (Brazil)
+   - Russian (partially)
+   - more to come, eventually ([support this project by contributing in your language!](https://github.com/yjeanrenaud/yj_nearbyglasses/issues/3))
 - Now the app icon's background is not transparent anymore
+- Now we scan for UUIDs, too
 - *Nearby Glasses* now supports dark mode (via system settings)
 - The edge-to-edge layout issue should be fixed from [v1.0.4](https://github.com/yjeanrenaud/yj_nearbyglasses/releases) onwards.
 - Newly licensed under AGPL 3.0
 - I decided to waive the CLA. After some discussions with people who knew more than me about collaborative projects, I gained the insight that this was an unnecessary step.
 ## iOS and Android
 - Finally, after three weeks, the iOS port is available. It should work on most iPhones and iPads; even older ones (back to iOS 16). [Source code and project files are provided](/iOS/), too. The code is ugly and unorthodox. Many approaches are quick and dirty (e.g. I re-use the json files from the android localisation), but it is working so far. *Nearby Glasses* is availale via the [Apple App Store](https://apps.apple.com/us/app/nearby-glasses-original/id6761056896). (It's called original to make it distinguishable from those copycats). A .ipa is available for sideloading under [releases](https://github.com/yjeanrenaud/yj_nearbyglasses/releases).
-  The iOS App is not working in the background, because I found no possibility to use something similar to ForegroundServices in order to permanently scan for BTLE ADV due to iOS restrictions. Hence, there's only a Canary Mode available in *Nearby Glasses* under iOS.
+  The iOS App is not working in the background, because I found no possibility to use something similar to `ForegroundServices` in order to permanently scan for BTLE ADV due to iOS restrictions. Hence, there's only a *Canary Mode* available in *Nearby Glasses* under iOS. If you know Swift and iOS better than me (which is likely), please contribute!
 - Because this repository holds both Android and iOS App code, I re-organised the folders. Hence, there is [/iOS](/iOS/) and [/Android](/Android/).
 
 ## Usage
