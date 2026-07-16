@@ -1,7 +1,7 @@
 # yj_nearbyglasses
 attempting to detect smart glasses nearby and warn you.
 # ⚠ WARNING! ⚠ 
-*nearby-glasses-alert.pages.dev* is NOT RELATED TO MY PROJECT. They seem to hijack the name and try to make a quick profit from it. I do not endorse this.
+*nearby-glasses-alert.pages.dev* is NOT RELATED TO MY PROJECT. Many apps in Play Store and App Store look or are even called very similar to **Nearby Glasses**. They seem to hijack the name and try to make a quick profit from it. they do not adhere to the AGPL license, give no whatsoever. I do not endorse this.
 ---
 
 <img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses classic" src="img/old/Screenshot%20Nearby%20Glasses%20(2).png" />
