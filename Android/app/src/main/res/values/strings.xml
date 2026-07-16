@@ -24,7 +24,7 @@
     <string name="info_text">This app notifies you when smart glasses might be nearby. It uses company identificators in the Bluetooth data sent out by these. Therefore, there likely are false positives (e.g. from VR headsets). Hence, please proceed with caution when approaching a person nearby wearing glasses. They might just be regular glasses, despite this app’s warning.</string>
     <string name="info_textCanary">This canary shows you when smart glasses might be nearby. It looks for Bluetooth identificators. False positives are likely (e.g. from VR headsets). Hence, please proceed with caution when approaching a person nearby wearing glasses. They might just be regular glasses.</string>
     <string name="warning_title">⚠️ WARNING! ⚠️ </string>
-    <string name="warning_text">HARASSING someone because you think they are wearing a covert surveillance device can be a criminal offence. It may even be a more serious offence than using such a device. Please seek legal advice regarding your local laws on this matter.\n⚠️ DO NOT HARASS ANYONE AT ALL.⚠️  </string>
+    <string name="warning_text">HARASSING someone because you think they are wearing a covert surveillance device can be a criminal offence. It may even be a more serious offence than using such a device. Please seek legal advise regarding your local laws on this matter.\n⚠️ DO NOT HARASS ANYONE AT ALL.⚠️  </string>
     <string name="titleCategoryScanningSettings">Scanning Settings</string>
     <string name="titleForeground">Enable Foreground Service</string>
     <string name="summaryForeground">Run scanning as a foreground service to prevent being stopped by the system.</string>
@@ -66,7 +66,7 @@
          Please do not act rashly. <b>Think before you act upon any messages</b> (not only from this app).<br/>
          <br/>
          <b>⚠️ WARNING! ⚠️</b><br/>
-         <b>HARASSING</b> someone because you <i>think</i> they are wearing a covert surveillance device can be a criminal offence. It may even be a more serious offence than using such a device. Please seek legal advice regarding your local laws on this matter.<br/>
+         <b>HARASSING</b> someone because you <i>think</i> they are wearing a covert surveillance device can be a criminal offence. It may even be a more serious offence than using such a device. Please seek legal advise regarding your local laws on this matter.<br/>
          ⚠️ <b>DO NOT HARASS ANYONE AT ALL</b> ⚠️<br/>
          <br/>
          <b>App Icon</b>: The icon is based on <a href="https://www.flaticon.com/free-icons/eyeglass" title="eyeglass icons">Eyeglass icons created by Freepik - Flaticon</a>.<br/><br/>
@@ -144,10 +144,13 @@ DO NOT HARASS ANYONE AT ALL.]]></string>
     <string name="reason_meta_company_id">Meta Company ID (%1$s)</string>
     <string name="reason_essilor_company_id">EssilorLuxottica Company ID (%1$s)</string>
     <string name="reason_snap_company_id">Snap Company ID (%1$s)</string>
+    <string name="reason_zhuhai_company_id">Zhuhai Jieli Company ID (%1$s)</string>
+    <string name="reason_primary_service_uuid">Primary Service UUID (%1$s)</string>
     <string name="reason_name_contains">Device name contains \'%1$s\'</string>
     <string name="company_meta">Meta Platforms, Inc.</string>
     <string name="company_essilor">EssilorLuxottica S.A.</string>
     <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="company_unknown">Unknown (%1$s)</string>
     <string name="unknown_device">Unknown</string>
 

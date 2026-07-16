@@ -66,8 +66,8 @@
         <item>Русский</item>
     </string-array>
     <string-array name="pref_language_values">
-        <item></item>
-        <item>en</item>
+        <item></item> <!-- empty string means “follow system” -->
+        <item>en</item> <!-- only BCP-47 tags;  -->
         <item>de</item>
         <item>de-CH</item>
         <item>fr</item>
@@ -91,8 +91,14 @@
     <string name="reason_meta_company_id">Company ID Meta (%1$s)</string>
     <string name="reason_essilor_company_id">Company ID EssilorLuxottica (%1$s)</string>
     <string name="reason_snap_company_id">Company ID Snap (%1$s)</string>
+    <string name="reason_zhuhai_company_id">Company ID Zhuhai Jieli (%1$s)</string>
+    <string name="reason_primary_service_uuid">UUID основной службы (%1$s)</string>
     <string name="reason_name_contains">Имя устройства содержит \'%1$s\'</string>
     <string name="company_unknown">Неизвестно (%1$s)</string>
+    <string name="company_meta">Meta Platforms, Inc.</string>
+    <string name="company_essilor">EssilorLuxottica S.A.</string>
+    <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="unknown_device">Неизвестно</string>
     <string name="clipboard_copied">Скопировано: %1$s</string>
     <string name="toast_bluetooth_required">Bluetooth должен быть включен</string>

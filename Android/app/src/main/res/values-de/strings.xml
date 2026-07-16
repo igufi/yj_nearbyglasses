@@ -8,7 +8,7 @@
     <string name="stopScanning">Scannen stoppen</string>
     <string name="notScanning">Scannt nicht</string>
     <string name="notScanningCanary">Scannt nicht</string>
-    <string name="textScanning">Scannen aktiv - Sie werden benachrichtigt, wenn Smart Glasses in der Nähe erkannt werden.</string>
+    <string name="textScanning">Scannen aktiv - Eine Benachrichtigung zeigt an, wenn Smart Glasses in der Nähe gefunden werden</string>
     <string name="textScanningCanary">Scannen aktiv 𓅪 </string>
     <string name="titleCategoryAbout">Über</string>
     <string name="start_scanning">Scannen starten</string>
@@ -39,22 +39,22 @@
     <string name="titleLogging">Protokoll anzeigen</string>
     <string name="summaryLogging">Anzeige des Erkennungsprotokolls im Hauptbildschirm. Das Protokoll wird immer lokal gespeichert, um exportiert werden zu können.</string>
     <string name="titleDebug">Debug</string>
-    <string name="summaryDebug">Zeigt alle gefundenen Unternehmens-IDs im Protokoll an. Benachrichtigungen werden weiterhin nur für Smart Glasses angezeigt.</string>
+    <string name="summaryDebug">Alle gefundenen Unternehmens-IDs im Protokoll zeigen. Benachrichtigungen werden weiterhin nur für Smart Glasses angezeigt.</string>
     <string name="titleDebugSize">Max. Protokollzeilen</string>
     <string name="summaryDebugSize">Derzeit: %1$s. Maximale Anzahl der im Debug-Protokoll gespeicherten Zeilen.</string>
     <string name="titleDebugAdvonly">Nur BLE ADV</string>
     <string name="summaryDebugAdvonly">Wenn diese Option aktiviert ist, werden im Protokoll nur BLE-Advertisement-Zeilen (ADV) angezeigt.</string>
-    <string name="nothing_to_export">Keine Erkennungen zum Exportieren</string>
+    <string name="nothing_to_export">Keine Daten zum Exportieren</string>
     <string name="titleDebugCompanyIds">Überschreibe Unternehmens-IDs</string>
-    <string name="summaryDebugCompanyIds">Derzeit: %1$s. Werden eine oder mehrere IDs in Little-Endian-Hexadezimalschreibweise angegeben, werden diese anstelle der Standardwerte (0x01AB,0x058E,0x0D53) verwendet. Dadurch werden auch Benachrichtigungen für diese neuen IDs ausgelöst.</string>
+    <string name="summaryDebugCompanyIds">Derzeit: %1$s. Wird eine oder mehrere IDs in Little-Endian-Hexadezimalschreibweise angegeben, wird/werden diese anstelle der Standardwerte (0x01AB,0x058E,0x0D53) verwendet. Dadurch werden auch Benachrichtigungen für diese neuen IDs ausgelöst.</string>
     <string name="none_in_parentheses">(keine)</string>
     <string name="summaryApp">Entdeckt Smart Glasses mittels Bluetooth LE</string>
     <string name="titleMethod">Entdeckungsverfahren</string>
     <string name="summaryMethod">Erkennung basierend auf Unternehmens-IDs in BLE-Adv-Frames und Gerätenamenabgleich.</string>
     <string name="titleLiability">Haftung und Lizenz</string>
     <string name="summaryLiability"><![CDATA[
-	Die App <i>Nearby Glasses</i> hat nur einen einzigen Zweck: Die App sucht nach Smart Glasses in der Nähe und warnt Sie. <br/>
-	Der Autor der App (<a href="https://yves.app">Yves Jeanrenaud</a>) übernimmt keinerlei Haftung für diese App oder ihre Funktionalität. Die Nutzung erfolgt auf eigene Gefahr. Technisch bedingt funktioniert die Erkennung von BLE-Geräten manchmal nicht wie erwartet. Ich bin kein ausgebildeter Software-Entwickler. All dies habe ich in meiner Freizeit und mit selbst erworbenem Wissen geschrieben. <b>Falsch-positive Ergebnisse sind wahrscheinlich.</b> Das bedeutet, dass die App <i>Nearby Glasses</i> möglicherweise über Smart Glasses in der Nähe benachrichtigt, obwohl es sich in Wirklichkeit um ein VR-Headset desselben Herstellers oder ein anderes Produkt dieses Unternehmens handelt. Es kann auch vorkommen, dass Smart Glasses in der Nähe nicht erkannt werden. Um zu sehen, welche Marken derzeit erkannt werden, sehen Sie bitte im <a href="https://github.com/yjeanrenaud/yj_nearbyglasses/">Code-Repository auf GitHub</a> nach. Nochmals: Ich bin kein professioneller Software-Entwickler. Diese App ist und bleibt jedoch kostenlos und Open Source (FOSS). Sie können den Code überprüfen, ändern und wiederverwenden (unter der Lizenz): <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>.<br/>
+	Die App <i>Nearby Glasses</i> hat nur einen einzigen Zweck: Die App sucht nach Smart Glasses in der Nähe und warnt. <br/>
+	Der Autor der App (<a href="https://yves.app">Yves Jeanrenaud</a>) übernimmt keinerlei Haftung für diese App oder ihre Funktionalität. Die Nutzung erfolgt auf eigene Gefahr. Aufgrund der technischen Konzeption funktioniert die Erkennung von Bluetooth-LE-Geräten manchmal nicht wie erwartet. Ich bin kein ausgebildeter Software-Entwickler. All dies habe ich in meiner Freizeit und mit selbst erworbenem Wissen geschrieben. <b>Falsch-positive Ergebnisse sind wahrscheinlich.</b> Das bedeutet, dass die App <i>Nearby Glasses</i> möglicherweise über Smart Glasses in der Nähe benachrichtigt, obwohl es sich in Wirklichkeit um ein VR-Headset desselben Herstellers oder ein anderes Produkt dieses Unternehmens handelt. Es kann auch vorkommen, dass Smart Glasses in der Nähe nicht erkannt werden. Um zu sehen, welche Marken derzeit erkannt werden, sehen Sie bitte im <a href="https://github.com/yjeanrenaud/yj_nearbyglasses/">Code-Repository auf GitHub</a> nach. Nochmals: Ich bin kein professioneller Software-Entwickler. Diese App ist und bleibt jedoch kostenlos und Open Source (FOSS). Sie können den Code überprüfen, ändern und wiederverwenden (unter der Lizenz): <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>.<br/>
 	Erstellt in der Hoffnung, dass es nützlich sein möge.<br/>
 	Die App <i>Nearby Glasses</i> speichert keine Details über sie und sammelt keine Informationen über sie oder Ihr Telefon. Es gibt keine Telemetrie, keine Werbung und keine anderen Belästigungen. Wenn sie die App über den Play Store installieren, kann Google möglicherweise etwas über sie erfahren und einige Statistiken sammeln. Die App selbst tut dies jedoch nicht. <br/>
 	Wenn sie sich dafür entscheiden, die Logdatei zu speichern (zu exportieren), liegt es ganz bei ihnen und in ihrer Verantwortung, wohin diese Daten gelangen. Die Protokolle werden nur lokal aufgezeichnet und nicht automatisch mit anderen geteilt.<br/>
@@ -62,7 +62,7 @@
 	<b>Verwenden sie die App mit äußerster Vorsicht!</b> Wie bereits erwähnt: Es gibt keine Garantie dafür, dass die erkannten Smart Glasses wirklich in der Nähe sind. Es könnte sich um ein anderes Gerät handeln, das technisch (auf BLE-Adv-Ebene) einer Smartbrille ähnelt. <br/>
 	Bitte handeln sie nicht voreilig. <b>Überlegen sie, bevor Sie auf Nachrichten reagieren</b> (nicht nur aus dieser App).<br/>
 	<b>⚠️ WARNUNG! ⚠️ </b>
-    <b>JEMANDEN ZU BELÄSTIGEN</b>, weil man <i>glaubt</i>, sie würden ein verdecktes Überwachungsgerät tragen, kann eine Strafttat darstellen. Es kann sogar eine schwerer sein, als solch ein Gerät zu benutzen. Bitte lassen Sie sich bezüglich der örtlichen Gesetze zu diesem Thema rechtlich beraten.<br/>
+    <b>JEMANDEN ZU BEDRÄNGEN</b>, weil man <i>glaubt</i>, sie würden ein verdecktes Überwachungsgerät tragen, kann eine Strafttat darstellen. Es kann sogar eine schwerer sein, als solch ein Gerät zu benutzen. Bitte lassen Sie sich bezüglich der örtlichen Gesetze zu diesem Thema rechtlich beraten.<br/>
     ⚠️ <b>BELÄSTIGEN SIE NIEMANDEN - NIE</b> ⚠️ <br/>
 	<br/>
 	<b>App-Symbol</b>: Das Symbol basiert auf <a href="https://www.flaticon.com/free-icons/eyeglass" title="Brillensymbole">Brillensymbolen, die von Freepik – Flaticon erstellt wurden</a>.<br/>
@@ -71,7 +71,7 @@
 	<b>Lizenzen</b>:<br/>
 	Diese App <i>Nearby Glasses</i> unterliegt der GNU Affero General Public License 3.0. Siehe <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>.<br/>
 	<br/>
-	Dieses Projekt enthält Bibliotheken von Drittanbieter*innen:<br/>
+	Dieses Projekt enthält Bibliotheken von Drittanbieterinnen:<br/>
     <br/>
     1. kotlinx.coroutines<br/>
     Copyright 2016-2024 JetBrains<br/>
@@ -98,7 +98,7 @@
         <item>Chinesisch</item>
         <item>Portugiesisch (Brasilien)</item>
         <item>Italienisch</item>
-        <item>Russian</item>
+        <item>Russisch</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -136,10 +136,13 @@ Firma: %4$s]]></string>
     <string name="reason_meta_company_id">Meta Unternehmens-ID (%1$s)</string>
     <string name="reason_essilor_company_id">EssilorLuxottica Unternehmens-ID (%1$s)</string>
     <string name="reason_snap_company_id">Snap Unternehmens-ID (%1$s)</string>
+    <string name="reason_zhuhai_company_id">Zhuhai Jieli Unternehmens-ID (%1$s)</string>
+    <string name="reason_primary_service_uuid">Primäre Service UUID (%1$s)</string>
     <string name="reason_name_contains">Gerätename enthält \'%1$s\'</string>
     <string name="company_meta">Meta Platforms, Inc.</string>
     <string name="company_essilor">EssilorLuxottica S.A.</string>
     <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="company_unknown">Unbekannt (%1$s)</string>
     <string name="unknown_device">Unbekannt</string>
 	

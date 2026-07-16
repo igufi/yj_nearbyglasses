@@ -20,7 +20,7 @@
     <string name="clearLog">Protokoll löschen</string>
     <string name="exportLog">Protokoll exportiere</string>
     <string name="debug_log">Debug Protokoll</string>
-    <string name="glasses_detected">👓 Warnig: Smart Glasses sind vermuetlig in dr Neechi</string>
+    <string name="glasses_detected">👓 Warnig: Smart Glasses sind villicht in dr Neechi</string>
     <string name="info_text">Die App binochrichtigt dich, wenn sich Smart Glasses in dr Neechi befinde. Si binutzt drzue d Firmekennig in de vo dene Brille vrsändete Bluetooth-Date. Doorum chas zu Fählalarme ko (z. B. durch VR-Headsets). Sig dorum bitte voorsichtig, wenn Si sich enere Person neechere, wo e Brille treit. Es chönt sich trotz dr Warnig vo dere App umene normali Brille handle.</string>
     <string name="info_textCanary">De Kanarievogel zeigt a, wenn sich möglicherwis Smart Glasses in der Neechi befinde. Er suecht nach Bluetooth-Signal. Es cha zu  Fehlalarm ko (z. B. durch VR-Headsets). Siged drum bitte voorsichtig, wenn dir eich enere Person neecherisch, wo e Brille treit. Es chönt sich umene normali Brille handle.</string>
     <string name="warning_title">⚠️ WARNIG! ⚠️ </string>
@@ -98,7 +98,7 @@
         <item>Chinesisch</item>
         <item>Portugiesisch (Brasilie)</item>
         <item>Italienisch</item>
-        <item>Russian</item>
+        <item>Russisch</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -136,10 +136,13 @@ Firma: %4$s]]></string>
     <string name="reason_meta_company_id">Meta Firme-ID (%1$s)</string>
     <string name="reason_essilor_company_id">EssilorLuxottica Firme-ID (%1$s)</string>
     <string name="reason_snap_company_id">Snap Firme-ID (%1$s)</string>
+    <string name="reason_zhuhai_company_id">Zhuhai Jieli Firme-ID (%1$s)</string>
+    <string name="reason_primary_service_uuid">Primäri Service UUID (%1$s)</string>
     <string name="reason_name_contains">Grätename enthaltet \'%1$s\'</string>
     <string name="company_meta">Meta Platforms, Inc.</string>
     <string name="company_essilor">EssilorLuxottica S.A.</string>
     <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="company_unknown">Unbekannt (%1$s)</string>
     <string name="unknown_device">Unbekannt</string>
 	

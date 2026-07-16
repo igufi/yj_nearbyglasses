@@ -102,7 +102,7 @@
 		<item>Chinois</item>
 		<item>Portugais (Brésil)</item>
 		<item>Italien</item>
-        <item>Russian</item>
+		<item>Russe</item>
 	</string-array>
 	<string-array name="pref_language_values">
 		<item></item> <!-- empty string means “follow system” -->
@@ -114,7 +114,7 @@
 		<item>zh</item>
 		<item>pt-BR</item>
 		<item>it</item>
-        <item>ru</item>
+		<item>ru</item>
 	</string-array>
 	<!-- for notifications -->
 	<string name="notifyText">⚠️ Des lunettes intelligentes sont peut-être à proximité</string>
@@ -142,10 +142,13 @@ Entreprise: %4$s]]></string>
 	<string name="reason_meta_company_id">ID méta de l\'entreprise (%1$s)</string>
 	<string name="reason_essilor_company_id">ID EssilorLuxottica de l\'entreprise (%1$s)</string>
 	<string name="reason_snap_company_id">ID de l\'entreprise Snap (%1$s)</string>
+	<string name="reason_zhuhai_company_id">ID de l\'entreprise Zhuhai Jieli (%1$s)</string>
+	<string name="reason_primary_service_uuid">UUID du service primair (%1$s)</string>
 	<string name="reason_name_contains">Le nom de l\'appareil contient « %1$s »</string>
 	<string name="company_meta">Meta Platforms, Inc.</string>
 	<string name="company_essilor">EssilorLuxottica S.A.</string>
 	<string name="company_snap">Snap, Inc.</string>
+	<string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
 	<string name="company_unknown">Inconnu (%1$s)</string>
 	<string name="unknown_device">Inconnu</string>
 

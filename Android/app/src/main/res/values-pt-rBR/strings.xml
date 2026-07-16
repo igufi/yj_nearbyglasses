@@ -101,7 +101,7 @@
         <item>Chinês</item>
         <item>Português (Brasil)</item>
         <item>Italiano</item>
-        <item>Russian</item>
+        <item>Russo</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -143,10 +143,13 @@ NÃO ASSEDIAR NINGUÉM, DE FORMA ALGUMA.]]></string>
     <string name="reason_meta_company_id">ID de Empresa Meta (%1$s)</string>
     <string name="reason_essilor_company_id">ID de Empresa EssilorLuxottica (%1$s)</string>
     <string name="reason_snap_company_id">ID de Empresa Snap (%1$s)</string>
+    <string name="reason_zhuhai_company_id">ID de Empresa Zhuhai Jieli (%1$s)</string>
+    <string name="reason_primary_service_uuid">UUID primário (%1$s)</string>
     <string name="reason_name_contains">O nome do dispositivo contém \'%1$s\'</string>
     <string name="company_meta">Meta Platforms, Inc.</string>
     <string name="company_essilor">EssilorLuxottica S.A.</string>
     <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="company_unknown">Desconhecida (%1$s)</string>
     <string name="unknown_device">Desconhecido</string>
 

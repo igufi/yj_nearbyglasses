@@ -18,6 +18,7 @@ import kotlinx.coroutines.flow.StateFlow
 import android.Manifest
 import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
+import ch.pocketpc.nearbyglasses.model.DetectionEvent.Companion.PRIMARY_SERVICE_UUID_STRING
 
 class BluetoothScanner(
     private val context: Context,
@@ -193,9 +194,40 @@ class BluetoothScanner(
                 manufacturerDataHex?.length?.div(2) ?: 0
             )
         )
+        // check UUID of primary service announcement
+        val scanRecord = result.scanRecord
+
+        /*val hasPrimaryService =
+            scanRecord
+                ?.serviceUuids
+                .orEmpty()
+                .any { parcelUuid ->
+                    parcelUuid.uuid == DetectionEvent.PRIMARY_SERVICE_UUID
+                }*/
+        // UUID may also appear as the key of advertised service data
+        // try to make sure we spot that service UUID announcement
+        val uuidInServiceList =
+            scanRecord
+                ?.serviceUuids
+                .orEmpty()
+                .any { parcelUuid ->
+                    parcelUuid.uuid == DetectionEvent.PRIMARY_SERVICE_UUID
+                }
+
+        val uuidInServiceData =
+            scanRecord
+                ?.serviceData
+                ?.keys
+                .orEmpty()
+                .any { parcelUuid ->
+                    parcelUuid.uuid == DetectionEvent.PRIMARY_SERVICE_UUID
+                }
+
+        val hasPrimaryService =
+            uuidInServiceList || uuidInServiceData
 
         // for to check if this is a smart glasses device (including our debug override)
-        val (isSmartGlassesReal, reasonReal) = DetectionEvent.isSmartGlasses(context,companyId, deviceName)
+        val (isSmartGlassesReal, reasonReal) = DetectionEvent.isSmartGlasses(context,companyId, deviceName, hasPrimaryService)
         //val overrideMatch = companyId != null && debugCompanyIds.contains(companyId)
         //only when debug is on AND company IDs are entered
         val overrideMatch = debugEnabled && companyId != null && debugCompanyIds.contains(companyId)
@@ -231,6 +263,12 @@ class BluetoothScanner(
                     reason
                 )
             )
+            if (hasPrimaryService) {
+                Log.d(
+                    TAG,
+                    "UUID=$PRIMARY_SERVICE_UUID_STRING, address=$deviceAddress"
+                )
+            }
         }
 
         if (isSmartGlasses) {

@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
-
+import java.util.UUID //for more precise detections
 
 @Parcelize
 data class DetectionEvent(
@@ -56,8 +56,11 @@ data class DetectionEvent(
         const val ESSILOR_COMPANY_ID = 0x0D53
         //Snap (Snapchat) Spectacles
         const val SNAP_COMPANY_ID = 0x03C2
+        const val ZHUHAI_COMPANY_ID = 0x05D6
+        const val PRIMARY_SERVICE_UUID_STRING = "7905FFF0-B5CE-4E99-A40F-4B1E122D00D0"
+        val PRIMARY_SERVICE_UUID: UUID = UUID.fromString(PRIMARY_SERVICE_UUID_STRING)
 
-        fun isSmartGlasses(context: Context, companyId: Int?,deviceName: String?): Pair<Boolean, String>
+        fun isSmartGlasses(context: Context, companyId: Int?,deviceName: String?, hasPrimaryService: Boolean = false): Pair<Boolean, String>
         {
             val reasons = mutableListOf<String>()
 
@@ -88,7 +91,21 @@ data class DetectionEvent(
                     R.string.reason_snap_company_id,
                     "0x03C2"))
             }
-
+            if (companyId == ZHUHAI_COMPANY_ID) {
+                //reasons.add("Zhuhai Jieli technology ID (0x05D6)")
+                reasons.add(context.getString(
+                    R.string.reason_zhuhai_company_id,
+                    "0x05D6"))
+            }
+            //Check for HeyCyan's primary service UUID
+            if (hasPrimaryService) {
+                reasons.add(
+                    context.getString(
+                        R.string.reason_primary_service_uuid,
+                        PRIMARY_SERVICE_UUID_STRING
+                    )
+                )
+            }
             // Check device name
             deviceName?.let { name ->
                 val nameLower = name.lowercase()
@@ -106,7 +123,11 @@ data class DetectionEvent(
                     nameLower.contains("ray ban") -> reasons.add(
                         context.getString(R.string.reason_name_contains,"ray ban")
                     )
-                else -> {} // do nothing
+                    nameLower.contains("heycyan") -> reasons.add(
+                        context.getString(R.string.reason_name_contains,"HeyCyan")
+                    ) //Nilox Smart AI Glasses and alike
+
+                    else -> {} // do nothing
                 }
             }
 
