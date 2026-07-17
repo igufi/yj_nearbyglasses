@@ -38,19 +38,56 @@
     <string name="titleLogging">Показывать журнал</string>
     <string name="summaryLogging">Показывать журнал обнаружений на главном экране. Журнал всегда хранится локально для экспорта.</string>
     <string name="titleDebug">Отладка</string>
-    <string name="summaryDebug">Включить все Company ID, найденные в журнале. Уведомлять по-прежнему только об умных очках.</string>
+    <string name="summaryDebug">Включить все ID компаний, найденные в журнале. Уведомлять по-прежнему только об умных очках.</string>
     <string name="titleDebugSize">Максимум строк журнала</string>
     <string name="summaryDebugSize">Сейчас: %1$s. Максимальное число строк, сохраняемых в журнале отладки.</string>
     <string name="titleDebugAdvonly">Только BLE ADV</string>
     <string name="summaryDebugAdvonly">Если включено, в журнале отладки показываются только строки BLE-рекламы (ADV).</string>
     <string name="nothing_to_export">Нет обнаружений для экспорта</string>
-    <string name="titleDebugCompanyIds">Переопределить Company ID</string>
+    <string name="titleDebugCompanyIds">Переопределить ID компаний</string>
     <string name="summaryDebugCompanyIds">Сейчас: %1$s. Если ввести один или несколько ID для обнаружения в little-endian шестнадцатеричной записи, они будут использоваться вместо значений по умолчанию ("0x01AB,0x058E,0x0D53"). Для новых ID также будут срабатывать уведомления.</string>
     <string name="none_in_parentheses">(нет)</string>
     <string name="summaryApp">Обнаруживает умные очки через Bluetooth LE</string>
     <string name="titleMethod">Метод обнаружения</string>
-    <string name="summaryMethod">Обнаружение основано на Company ID в рекламных BLE-кадрах и совпадениях имени устройства.</string>
+    <string name="summaryMethod">Обнаружение основано на ID компаний в рекламных BLE-кадрах и совпадениях имени устройства.</string>
     <string name="titleLiability">Ответственность и лицензия</string>
+    <string name="summaryLiability" formatted="false"><![CDATA[
+         У приложения <i>Nearby Glasses</i> только одна цель: искать поблизости умные очки и предупреждать вас.<br/>
+         Автор приложения (<a href="https://yves.app">Yves Jeanrenaud</a>) не несет никакой ответственности за это приложение или его работу. Используйте его на свой риск. Из-за технических особенностей обнаружение устройств Bluetooth LE иногда может работать не так, как ожидается. Я не дипломированный разработчик. Все это написано в свободное время и на основе знаний, которые я получил самостоятельно.<br/>
+         <b>Возможны ложные срабатывания.</b> Это означает, что приложение <i>Nearby Glasses</i> может уведомить вас об умных очках поблизости, хотя на самом деле рядом может быть VR-гарнитура того же производителя или другой продукт этой компании. Приложение также может не обнаружить умные очки поблизости. Чтобы узнать, какие бренды сейчас обнаруживаются, смотрите <a href="https://github.com/yjeanrenaud/yj_nearbyglasses/">репозиторий кода на GitHub</a>. Еще раз: я не профессиональный разработчик.<br/>
+         Тем не менее это приложение есть и всегда будет свободным и открытым (FOSS): вы можете изучать код, изменять его и повторно использовать по лицензии <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>.
+         <br/>
+         Сделано в надежде, что это будет полезно.<br/>
+         Приложение <i>Nearby Glasses</i> не хранит никаких сведений о вас и не собирает информацию о вас или вашем телефоне. В нем нет телеметрии, рекламы и других раздражающих вещей. Если вы устанавливаете приложение через Play Store, Google может получить некоторые сведения и статистику, но само приложение этого не делает.<br/>
+         Если вы решите сохранить или экспортировать файл журнала, ответственность за то, куда попадут эти данные, полностью лежит на вас. Журналы записываются только локально и никому автоматически не передаются.<br/>
+         <br/>
+         <b>Используйте с крайней осторожностью!</b> Как сказано выше, нет гарантии, что обнаруженные умные очки действительно находятся рядом. Это может быть другое устройство, технически похожее на умные очки на уровне BLE-рекламы.<br/>
+         Не действуйте необдуманно. <b>Думайте, прежде чем действовать на основании любых сообщений</b>, не только от этого приложения.<br/>
+         <br/>
+         <b>⚠️ ВНИМАНИЕ! ⚠️</b><br/>
+         <b>ПРЕСЛЕДОВАНИЕ</b> человека из-за того, что вы <i>думаете</i>, будто он носит скрытое устройство наблюдения, может быть уголовным преступлением. Оно может оказаться даже более серьезным правонарушением, чем использование такого устройства. Проконсультируйтесь с юристом о применимых местных законах.<br/>
+         ⚠️ <b>НИКОГО НЕ ПРЕСЛЕДУЙТЕ</b> ⚠️<br/>
+         <br/>
+         <b>Значок приложения</b>: значок основан на <a href="https://www.flaticon.com/free-icons/eyeglass" title="eyeglass icons">иконках очков, созданных Freepik - Flaticon</a>.<br/><br/>
+         <b>Канарейка</b>: рисунок создан Yves Jeanrenaud и лицензирован по <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a><br/>
+         <b>Лицензии:</b><br/>
+         Это приложение <i>Nearby Glasses</i> лицензировано по GNU Affero General Public License 3.0. См. <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>.<br/>
+         <br/>
+         Этот проект включает сторонние библиотеки:<br/>
+         <br/>
+         1. kotlinx.coroutines<br/>
+            Copyright 2016-2024 JetBrains<br/>
+            Лицензия Apache License, Version 2.0<br/>
+         <a href="https://github.com/Kotlin/kotlinx.coroutines">https://github.com/Kotlin/kotlinx.coroutines</a><br/>
+         <br/>
+         2. AndroidX libraries<br/>
+            Copyright The Android Open Source Project<br/>
+            Лицензия Apache License, Version 2.0<br/>
+         <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
+         Участники вне GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+         <br/>
+         <br/>
+         ✊🏼 resist (Ai)<br/><br/><br/>]]></string>
     <string name="pref_language_title">Язык</string>
     <string name="pref_language_summary">Выберите язык приложения</string>
     <string-array name="pref_language_entries">
@@ -88,19 +125,21 @@
     <string name="notification_unknown_device">Неизвестное устройство</string>
     <string name="notification_service_title">Поиск умных очков поблизости</string>
     <string name="notification_service_text">Фоновое сканирование активно</string>
-    <string name="reason_meta_company_id">Company ID Meta (%1$s)</string>
-    <string name="reason_essilor_company_id">Company ID EssilorLuxottica (%1$s)</string>
-    <string name="reason_snap_company_id">Company ID Snap (%1$s)</string>
-    <string name="reason_zhuhai_company_id">Company ID Zhuhai Jieli (%1$s)</string>
+    <string name="reason_meta_company_id">ID компании Meta (%1$s)</string>
+    <string name="reason_essilor_company_id">ID компании EssilorLuxottica (%1$s)</string>
+    <string name="reason_snap_company_id">ID компании Snap (%1$s)</string>
+    <string name="reason_zhuhai_company_id">ID компании Zhuhai Jieli (%1$s)</string>
     <string name="reason_primary_service_uuid">UUID основной службы (%1$s)</string>
     <string name="reason_name_contains">Имя устройства содержит \'%1$s\'</string>
-    <string name="company_unknown">Неизвестно (%1$s)</string>
     <string name="company_meta">Meta Platforms, Inc.</string>
     <string name="company_essilor">EssilorLuxottica S.A.</string>
     <string name="company_snap">Snap, Inc.</string>
+    <string name="company_unknown">Неизвестно (%1$s)</string>
     <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
     <string name="unknown_device">Неизвестно</string>
     <string name="clipboard_copied">Скопировано: %1$s</string>
+    <string name="clipboard_label_log_line">Строка журнала Nearby Glasses</string>
+    <string name="clipboard_label_log">Журнал Nearby Glasses</string>
     <string name="toast_bluetooth_required">Bluetooth должен быть включен</string>
     <string name="toast_bluetooth_not_supported">Bluetooth не поддерживается на этом устройстве</string>
     <string name="dialog_permissions_title">Нужны разрешения</string>
@@ -115,16 +154,20 @@
     <string name="toast_export_error">Ошибка экспорта журнала: %1$s</string>
     <string name="dbg_export_error">Ошибка экспорта журнала</string>
     <string name="log_unknown_device">Неизвестно</string>
+    <string name="log_detection_line">[%1$s] %2$s (%3$d dBm) - %4$s</string>
     <string name="log_debug_prefix">ОТЛАДКА</string>
+    <string name="log_debug_line">[%1$s] %2$s: %3$s</string>
+    <string name="log_startvalue">[14:30:45] Ray-Ban Meta (-65 dBm) - ID компании Meta\n[14:31:20] Неизвестное устройство (-72 dBm) - Имя устройства содержит \'rayban\'</string>
     <string name="log_service_created">Служба создана</string>
     <string name="log_already_scanning">Сканирование уже выполняется</string>
     <string name="log_scanning_started">Сканирование успешно запущено</string>
     <string name="log_scanning_failed">Не удалось запустить сканирование</string>
     <string name="log_notification_suppressed">Обнаружение произошло в период задержки, уведомление подавлено</string>
     <string name="log_service_destroyed">Служба уничтожена</string>
-    <string name="reason_debug_override_company_id">Переопределение отладки: Company ID %1$s совпал</string>
+    <string name="reason_debug_override_company_id">Переопределение отладки: ID компании %1$s совпал</string>
     <string name="company_unknown_plain">Неизвестно</string>
     <string name="placeholder_none">нет</string>
+    <string name="dbg_filtered_rssi">Отфильтровано по RSSI: адрес=%1$s rssi=%2$d</string>
     <string name="dbg_scan_failed">Сканирование завершилось ошибкой с кодом: %1$d</string>
     <string name="dbg_bluetooth_disabled">Bluetooth не включен</string>
     <string name="dbg_already_scanning">Сканирование уже выполняется</string>
@@ -134,8 +177,11 @@
     <string name="dbg_ble_stopped">BLE-сканирование остановлено</string>
     <string name="dbg_ble_start_error">Ошибка запуска BLE-сканирования</string>
     <string name="dbg_ble_stop_error">Ошибка остановки BLE-сканирования</string>
+    <string name="dbg_adv_short">ADV адрес=%1$s имя=%2$s rssi=%3$d idКомпании=%4$s длина=%5$d</string>
+    <string name="dbg_adv_full">ADV адрес=%1$s имя=%2$s rssi=%3$d idКомпании=%4$s длинаMfg=%5$d умныеОчки=%6$b причина=%7$s</string>
     <string name="dbg_smart_glasses_detected">обнаружены умные очки: %1$s (%2$d dBm)</string>
-    <string name="dbg_override_match">Переопределение отладки: Company ID %1$s совпал</string>
+    <string name="dbg_override_match">Переопределение отладки: ID компании %1$s совпал</string>
+    <string name="dbg_placeholder_unknown">?</string>
     <string name="dbg_placeholder_none">нет</string>
     <string name="titleCategoryMode">Режим</string>
     <string name="summaryCanaryMode">В режиме канарейки вы не будете получать системные уведомления, но увидите птицу, которая показывает, что умные очки поблизости пока не обнаружены. Если рядом появятся умные очки, птица заметно изменится.</string>
