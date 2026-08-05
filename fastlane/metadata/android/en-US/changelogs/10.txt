@@ -1,0 +1,4 @@
+- complete russian translation, thanks to @sklart
+- now on Android 16 (API Level 36) due to [Google's minimum requirements by August 31st, 2026](https://play.google.com/console/u/0/developers/6982474345533360280/app/4976024096450554613/policy-center/issues/4988218230475599092/details).
+- new Gradle 9.3.1, but should work with older versions, too.
+- minor bugfixes
