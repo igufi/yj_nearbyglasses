@@ -1,1 +1,1 @@
-NSBluetoothAlwaysUsageDescription = "Это приложение использует Bluetooth для сканирования BLE-рекламы поблизости, пока приложение открыто.";
+NSBluetoothAlwaysUsageDescription = "Это приложение использует Bluetooth для обнаружения BLE-объявлений, находящихся поблизости, пока оно открыто.";
