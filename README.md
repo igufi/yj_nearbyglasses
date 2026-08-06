@@ -183,11 +183,11 @@ I do not want to promote techsolutionism nor do I want people to feel falsely se
 As *Nearby Glasses* is open source, you may also build the app yourself from the source code. This makes sure there are no other libraries included in the APK and you get what you want.
 
 Please Note This app builds upon:
-- Gradle Wrapper: 8.13
+- Gradle Wrapper: 9.3.1
 - Android Gradle Plugin: 8.13.2
 - Kotlin: 1.9.22
-- compileSdk: 35
-- targetSdk: 35
+- compileSdk: 36
+- targetSdk: 36
 - minSdk: 26
 - No product flavors
 - Repositories: google() and mavenCentral() only
