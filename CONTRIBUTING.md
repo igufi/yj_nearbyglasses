@@ -11,5 +11,8 @@ It may therefore take me longer to understand your contribution, so please expla
 Please take a look at the 'Todos' that I added to the [README.md](README.md#Todos). That list is by no means exhaustive, but it may give you an idea of where I want to take the project next.
 I am quite new to developing software with people I don't know personally or professionally. For now, I don't feel comfortable relinquishing too much control over this repository, so you may find my design decisions and workflow procedures a little irritating. Again, I am trying to learn.
 
+## Stay away from AI
+Please, for various obvious reasons. The world is burning and AI data centres pour petrol into the wildfires, kill neighbourhoods and people, very literally. Ai fuels fascist and tech takeovers all over the world. There's nothing to like about LLM and other iterations that are currently sold to us as Ai.
+
 Thank you very much
 ~ Yves Jeanrenaud
