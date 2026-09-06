@@ -86,7 +86,7 @@
 	Sous licence Apache, version 2.0<br/>
 	<a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
 	<br/>
-	Contributeurs hors de GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+	Contributeurs hors de GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L., sublognot<br/>
 	<br/>
 	✊🏼 résister (iA)<br/><br/><br/>	]]> "</string>
 	<string name="pref_language_title">Langue</string>
@@ -103,18 +103,20 @@
 		<item>Portugais (Brésil)</item>
 		<item>Italien</item>
 		<item>Russe</item>
+		<item>Turc</item>
 	</string-array>
 	<string-array name="pref_language_values">
-		<item></item> <!-- empty string means “follow system” -->
-		<item>en</item> <!-- only BCP-47 tags;  -->
-		<item>de</item>
-		<item>de-CH</item>
-		<item>fr</item>
-		<item>es</item>
-		<item>zh</item>
-		<item>pt-BR</item>
-		<item>it</item>
-		<item>ru</item>
+        <item></item> <!-- empty string means “follow system” -->
+        <item>en</item> <!-- only BCP-47 tags;  -->
+        <item>de</item>
+        <item>de-CH</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>pt-BR</item>
+        <item>it</item>
+        <item>ru</item>
+		<item>tr</item>
 	</string-array>
 	<!-- for notifications -->
 	<string name="notifyText">⚠️ Des lunettes intelligentes sont peut-être à proximité</string>

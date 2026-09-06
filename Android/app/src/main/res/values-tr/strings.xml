@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for menu, settings, buttons -->
+    <string name="app_name">Nearby Glasses</string>
+    <string name="settings">Ayarlar</string>
+    <string name="notLogging">Günlük devre dışı. Yalnızca bir şey tespit edildiğinde bildirimler gösterilir.</string>
+    <string name="startScanning">Tarama başlat</string>
+    <string name="stopScanning">Tarama durdur</string>
+    <string name="notScanning">Taramıyor</string>
+    <string name="notScanningCanary">Taramıyor</string>
+    <string name="textScanning">Tarama aktif - Yakınlarda akıllı gözlük bulunduğunda bildirim gösterilir</string>
+    <string name="textScanningCanary">Tarama aktif 𓅪</string>
+    <string name="titleCategoryAbout">Hakkında</string>
+    <string name="start_scanning">Tarama başlat</string>
+    <string name="stop_scanning">Tarama durdur</string>
+    <string name="scanning">Cihazlar taranıyor...</string>
+    <string name="not_scanning">Taramıyor<br/></string>
+    <string name="clear">Temizle</string>
+    <string name="export">Dışa aktar</string>
+    <string name="clearLog">Günlüğü temizle</string>
+    <string name="exportLog">Günlüğü dışa aktar</string>
+    <string name="debug_log">Hata Ayıklama Günlüğü</string>
+    <string name="glasses_detected">👓 Uyarı: Yakınlarda akıllı gözlük olabilir</string>
+    <string name="info_text">Bu uygulama, yakınlarda akıllı gözlük varsa bildirim gönderir. Bunun için bu gözlüklerin gönderdiği Bluetooth verilerindeki şirket kimliklerini kullanır. Bu nedenle yanlış alarmlar oluşabilir (ör. VR başlıkları). Lütfen gözlük takan bir kişiye yaklaşırken dikkatli olun. Uygulamanın uyarısına rağmen bu normal bir gözlük olabilir.</string>
+    <string name="info_textCanary">Bu kanarya, yakınlarda akıllı gözlük olabileceğini belirtir. Bluetooth tanımlayıcılarını arar. Yanlış alarmlar oluşabilir (ör. VR başlıkları). Lütfen gözlük takan bir kişiye yaklaşırken dikkatli olun. Bu normal bir gözlük olabilir.</string>
+    <string name="warning_title">⚠️ UYARI! ⚠️</string>
+    <string name="warning_text">BİRİNİ, gizli bir gözetleme cihazı taşıdığını düşünerek rahatsız etmek suç teşkil edebilir. Hatta böyle bir cihazı kullanmaktan daha ağır bir suç olabilir. Lütfen bu konudaki yerel yasalar hakkında hukuki danışmanlık alın.\n⚠️ KİMSEYİ RAHATSIZ ETMEYİN - ASLA ⚠️</string>
+    <string name="titleCategoryScanningSettings">Tarama Ayarları</string>
+    <string name="titleForeground">Ön Plan Hizmetini Etkinleştir</string>
+    <string name="summaryForeground">Tarama işlemini ön plan hizmeti olarak çalıştırarak sistem tarafından durdurulmasını engeller.</string>
+    <string name="titleCooldown">Bildirim/Kanarya Bekleme Süresi (ms)</string>
+    <string name="summaryCooldown">Şu anki: %1$s ms. Bildirimler/kanarya değişimi arasındaki minimum süre (milisaniye cinsinden, varsayılan: 10000 ms = 10 s)</string>
+    <string name="titleThreshold">RSSI Eşiği (dBm)</string>
+    <string name="summaryThreshold">Şu anki: %1$s dBm. Yalnızca RSSI değeri bu eşiğin üzerinde olan cihazları algıla (varsayılan: -75 dBm, ~3–10 m)</string>
+    <string name="titleCategoryNotifications">Bildirim Ayarları</string>
+    <string name="titleNotifications">Bildirimleri Etkinleştir</string>
+    <string name="summaryNotifications">Akıllı gözlük cihazları algılandığında bildirim göster</string>
+    <string name="titleCategoryLogging">Günlük Ayarları</string>
+    <string name="titleLogging">Günlüğü Göster</string>
+    <string name="summaryLogging">Ana ekranda algılama günlüğünü göster. Günlük her zaman yerel olarak kaydedilir, böylece dışa aktarılabilir.</string>
+    <string name="titleDebug">Hata Ayıklama</string>
+    <string name="summaryDebug">Bulunan tüm şirket kimliklerini günlükte göster. Bildirimler yalnızca akıllı gözlükler için gösterilmeye devam eder.</string>
+    <string name="titleDebugSize">Maks. Günlük Satırı</string>
+    <string name="summaryDebugSize">Şu anki: %1$s. Hata ayıklama günlüğünde saklanacak maksimum satır sayısı.</string>
+    <string name="titleDebugAdvonly">Yalnızca BLE ADV</string>
+    <string name="summaryDebugAdvonly">Bu seçenek etkinleştirildiğinde, günlükte yalnızca BLE reklam (ADV) satırları gösterilir.</string>
+    <string name="nothing_to_export">Dışa aktarılacak veri yok</string>
+    <string name="titleDebugCompanyIds">Şirket Kimliklerini Geçersiz Kıl</string>
+    <string name="summaryDebugCompanyIds">Şu anki: %1$s. Küçük endian onaltılık gösterimde bir veya daha fazla kimlik belirtilirse, bunlar varsayılan değerlerin (0x01AB,0x058E,0x0D53) yerine kullanılır. Bu aynı zamanda bu yeni kimlikler için bildirimleri de tetikler.</string>
+    <string name="none_in_parentheses">(yok)</string>
+    <string name="summaryApp">Bluetooth LE kullanarak akıllı gözlükleri tespit eder</string>
+    <string name="titleMethod">Tespit Yöntemi</string>
+    <string name="summaryMethod">BLE Adv çerçevelerindeki şirket kimliklerine ve cihaz adı eşleştirmesine dayalı algılama.</string>
+    <string name="titleLiability">Sorumluluk ve Lisans</string>
+    <string name="summaryLiability"><![CDATA[
+	<i>Nearby Glasses</i> uygulamasının tek bir amacı vardır: Yakındaki akıllı gözlükleri arar ve uyarır. <br/>
+	Uygulamanın yazarı (<a href="https://yves.app">Yves Jeanrenaud</a>), bu uygulama veya işlevselliği için hiçbir sorumluluk kabul etmez. Kullanım tamamen kendi sorumluluğunuzdadır. Teknik yapı gereği, Bluetooth-LE cihazlarının tespiti bazen beklendiği gibi çalışmayabilir. Ben eğitimli bir yazılım geliştiricisi değilim. Tüm bunları boş zamanımda ve kendi öğrendiklerimle yazdım. <b>Yanlış pozitif sonuçlar olasıdır.</b> Bu, <i>Nearby Glasses</i> uygulamasının yakınlarda akıllı gözlük olduğu konusunda bildirim gönderebileceği, ancak gerçekte aynı üreticinin bir VR başlığı veya başka bir ürünü olabileceği anlamına gelir. Ayrıca yakındaki akıllı gözlükler tespit edilemeyebilir. Hangi markaların şu anda tespit edildiğini görmek için lütfen <a href="https://github.com/yjeanrenaud/yj_nearbyglasses/">GitHub\'daki kod deposuna</a> bakın. Tekrar ediyorum: Profesyonel bir yazılım geliştiricisi değilim. Ancak bu uygulama ücretsiz ve açık kaynaklıdır (FOSS). Kodu inceleyebilir, değiştirebilir ve yeniden kullanabilirsiniz (lisans altında): <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>.<br/>
+	Yararlı olması umuduyla oluşturulmuştur.<br/>
+	<i>Nearby Glasses</i> uygulaması, sizinle ilgili hiçbir ayrıntıyı saklamaz ve sizin veya telefonunuz hakkında herhangi bir bilgi toplamaz. Telemetri, reklam veya başka rahatsızlıklar yoktur. Uygulamayı Play Store üzerinden yüklerseniz, Google sizin hakkınızda bazı bilgiler edinebilir ve bazı istatistikler toplayabilir. Ancak uygulamanın kendisi bunu yapmaz.<br/>
+	Günlük dosyasını kaydetmeyi (dışa aktarmayı) tercih ederseniz, bu verilerin nereye gideceği tamamen size ve sizin sorumluluğunuza bağlıdır. Günlükler yalnızca yerel olarak kaydedilir ve otomatik olarak başkalarıyla paylaşılmaz.<br/>
+	<br/>
+	<b>Uygulamayı son derece dikkatli kullanın!</b> Daha önce belirtildiği gibi: Tespit edilen akıllı gözlüklerin gerçekten yakında olduğuna dair hiçbir garanti yoktur. Teknik olarak (BLE-Adv düzeyinde) akıllı gözlüklere benzeyen başka bir cihaz olabilir.<br/>
+	Lütfen aceleci davranmayın. <b>Bildirimlere (sadece bu uygulamadan değil) tepki vermeden önce düşünün.</b><br/>
+	<b>⚠️ UYARI! ⚠️</b>
+    <b>BİRİNİ RAHATSIZ ETMEK</b>, çünkü <i>gizli</i> bir gözetleme cihazı taşıdığını <i>düşünüyorsunuz</i>, suç teşkil edebilir. Hatta böyle bir cihazı kullanmaktan daha ağır bir suç olabilir. Lütfen bu konudaki yerel yasalar hakkında hukuki danışmanlık alın.<br/>
+    ⚠️ <b>KİMSEYİ RAHATSIZ ETMEYİN - ASLA</b> ⚠️ <br/>
+	<br/>
+	<b>Uygulama Simgesi</b>: Simge, <a href="https://www.flaticon.com/free-icons/eyeglass" title="gözlük simgeleri">Freepik – Flaticon tarafından oluşturulan gözlük simgelerine</a> dayanmaktadır.<br/>
+	<b>Kanarya</b>: Görsel Yves Jeanrenaud tarafından oluşturulmuş, <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a> altında lisanslanmıştır.<br/>
+	<br/>
+	<b>Lisanslar</b>:<br/>
+	Bu <i>Nearby Glasses</i> uygulaması, GNU Affero General Public License 3.0\'a tabidir. Bkz. <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>.<br/>
+	<br/>
+	Bu proje, üçüncü taraf kütüphaneleri içerir:<br/>
+    <br/>
+    1. kotlinx.coroutines<br/>
+    Telif Hakkı 2016-2024 JetBrains<br/>
+    Apache Lisansı, Sürüm 2.0 altında lisanslanmıştır<br/>
+    <a href="https://github.com/Kotlin/kotlinx.coroutines">https://github.com/Kotlin/kotlinx.coroutines</a><br/>
+    <br/>
+    2. AndroidX Kütüphaneleri<br/>
+    Telif Hakkı Android Açık Kaynak Projesi<br/>
+    Apache Lisansı, Sürüm 2.0 altında lisanslanmıştır<br/>
+    <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
+	<br/>
+	GitHub dışındaki katkıda bulunanlar: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L., sublognot<br/>
+    <br/>
+	✊🏼 diren (Yapay Zekâ\'ya)<br/><br/><br/>]]></string>
+    <string name="pref_language_title">Dil</string>
+    <string name="pref_language_summary">Uygulama dilini seçin</string>
+    <string-array name="pref_language_entries">
+        <item>Sistem dili</item>
+        <item>İngilizce</item>
+        <item>Almanca</item>
+        <item>İsviçre Almancası</item>
+        <item>Fransızca</item>
+        <item>İspanyolca</item>
+        <item>Çince</item>
+        <item>Portekizce (Brezilya)</item>
+        <item>İtalyanca</item>
+        <item>Rusça</item>
+        <item>Türkçe</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item></item> <!-- empty string means “follow system” -->
+        <item>en</item> <!-- only BCP-47 tags;  -->
+        <item>de</item>
+        <item>de-CH</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>pt-BR</item>
+        <item>it</item>
+        <item>ru</item>
+		<item>tr</item>
+    </string-array>
+    <!-- for notifications -->
+    <string name="notifyText">⚠️ Yakınlarda akıllı gözlük olabilir</string>
+	<!-- Notification channel names -->
+    <string name="channel_detection_name">Akıllı Gözlük Algılama Uyarıları</string>
+    <string name="channel_detection_description">Akıllı gözlük algılandığında bildirir</string>
+    <string name="channel_service_name">Arka Plan Tarama Hizmeti</string>
+    <string name="channel_service_description">Uygulama arka planda tarama yaparken gösterir.</string>
+	<!-- Detection notification -->
+    <string name="notification_detected_title">\@string/notifyText</string>
+    <string name="notification_detected_text">%1$s algılandı (RSSI: %2$d dBm)</string>
+    <string name="notification_bigtext"><![CDATA[
+Cihaz: %1$s
+RSSI: %2$d dBm
+Sebep: %3$s
+Şirket: %4$s]]></string>
+    <string name="notification_unknown_device">Bilinmeyen Cihaz</string>
+
+	<!-- Foreground service notification -->
+    <string name="notification_service_title">Yakındaki akıllı gözlükler taranıyor</string>
+    <string name="notification_service_text">Arka plan taraması aktif</string>
+	<!-- for messages and log -->
+    <string name="reason_meta_company_id">Meta şirket kimliği (%1$s)</string>
+    <string name="reason_essilor_company_id">EssilorLuxottica şirket kimliği (%1$s)</string>
+    <string name="reason_snap_company_id">Snap şirket kimliği (%1$s)</string>
+    <string name="reason_zhuhai_company_id">Zhuhai Jieli şirket kimliği (%1$s)</string>
+    <string name="reason_primary_service_uuid">Birincil hizmet UUID\'si (%1$s)</string>
+    <string name="reason_name_contains">Cihaz adı \'%1$s\' içeriyor</string>
+    <string name="company_meta">Meta Platforms, Inc.</string>
+    <string name="company_essilor">EssilorLuxottica S.A.</string>
+    <string name="company_snap">Snap, Inc.</string>
+    <string name="company_zhuha">Zhuhai Jieli Technology Co. / RollMe / Rogbird</string>
+    <string name="company_unknown">Bilinmeyen (%1$s)</string>
+    <string name="unknown_device">Bilinmeyen</string>
+	
+	<!-- Clipboard -->
+    <string name="clipboard_copied">Kopyalandı: %1$s</string>
+    <string name="clipboard_label_log_line">NearbyGlassesLogLine</string>
+    <string name="clipboard_label_log">NearbyGlassesLog</string>
+	
+	<!-- Bluetooth / permissions -->
+    <string name="toast_bluetooth_required">Bluetooth açık olmalıdır</string>
+    <string name="toast_bluetooth_not_supported">Bu cihazda Bluetooth desteklenmiyor</string>
+    
+	<string name="dialog_permissions_title">İzinler Gerekli</string>
+    <string name="dialog_permissions_message">Bu uygulama, cihazları taramak için Bluetooth ve konum izinlerine ihtiyaç duyar. Lütfen ayarlardan izinleri verin.</string>
+    <string name="dialog_open_settings">Ayarları aç</string>
+    <string name="dialog_cancel">İptal</string>
+	<!-- Clear log dialog -->
+    <string name="dialog_clear_log_title">Günlüğü temizle</string>
+    <string name="dialog_clear_log_message">Tüm algılama günlüklerini gerçekten silmek istiyor musunuz?</string>
+    <string name="dialog_clear">Temizle</string>
+    <string name="toast_log_cleared">Günlük temizlendi</string>
+	<!-- Export -->
+    <string name="chooser_export_log">Algılama günlüğünü dışa aktar</string>
+    <string name="toast_export_error">Günlük dışa aktarılırken hata: %1$s</string>
+    <string name="dbg_export_error">Günlük dışa aktarılırken hata oluştu</string>
+	<!-- Log formatting -->
+    <string name="log_unknown_device">Bilinmeyen</string>
+    <string name="log_detection_line">[%1$s] %2$s (%3$d dBm) - %4$s</string>
+    <string name="log_startvalue">[14:30:45] Ray-Ban Meta (-65 dBm) - Meta şirket kimliği\n[14:31:20] Bilinmeyen Cihaz (-72 dBm) - Cihaz adı \'rayban\' içeriyor</string>
+    <string name="log_debug_prefix">HATA AYIKLAMA</string>
+    <string name="log_debug_line">[%1$s] %2$s: %3$s</string>
+	<!-- Service logs -->
+    <string name="log_service_created">Hizmet oluşturuldu</string>
+    <string name="log_already_scanning">Zaten taranıyor</string>
+    <string name="log_scanning_started">Tarama başarıyla başlatıldı.</string>
+    <string name="log_scanning_failed">Tarama başlatılamadı</string>
+    <string name="log_notification_suppressed">Algılama bekleme süresi içinde, bildirim engellendi</string>
+    <string name="log_service_destroyed">Hizmet yok edildi</string>
+    <string name="reason_debug_override_company_id">Hata ayıklama geçersiz kılması: şirket kimliği %1$s eşleşiyor</string>
+    <string name="company_unknown_plain">Bilinmeyen</string>
+    <string name="placeholder_none">yok</string>
+	<!-- Debug / scanner logs -->
+    <string name="dbg_filtered_rssi">Filtrelenmiş RSSI addr=%1$s rssi=%2$d</string>
+    <string name="dbg_scan_failed">Tarama hata koduyla başarısız oldu: %1$d</string>
+    <string name="dbg_bluetooth_disabled">Bluetooth açık değil</string>
+    <string name="dbg_already_scanning">Zaten taranıyor</string>
+    <string name="dbg_ble_not_available">BLE tarayıcı mevcut değil</string>
+    <string name="dbg_ble_started_verbose">BLE taraması başlatıldı. RSSI eşiği = %1$d, mod = LOW_LATENCY</string>
+    <string name="dbg_ble_started_simple">BLE taraması başlatıldı, RSSI eşiği: %1$d dBm</string>
+    <string name="dbg_ble_stopped">BLE taraması durduruldu</string>
+    <string name="dbg_ble_start_error">BLE taraması başlatılırken hata oluştu</string>
+    <string name="dbg_ble_stop_error">BLE taraması durdurulurken hata oluştu</string>
+    <string name="dbg_adv_short">ADV addr=%1$s name=%2$s rssi=%3$d companyId=%4$s len=%5$d</string>
+    <string name="dbg_adv_full">ADV addr=%1$s name=%2$s rssi=%3$d companyId=%4$s mfgLen=%5$d smartglasses=%6$b reason=%7$s</string>
+    <string name="dbg_smart_glasses_detected">Akıllı gözlük algılandı: %1$s (%2$d dBm)</string>
+    <string name="dbg_override_match">Hata ayıklama geçersiz kılması: şirket kimliği %1$s eşleşiyor</string>
+    <string name="dbg_placeholder_unknown">?</string>
+    <string name="dbg_placeholder_none">yok</string>
+    <string name="titleCategoryMode">Mod</string>
+    <string name="summaryCanaryMode">Kanarya modunda sistem bildirimi almazsınız, bunun yerine yakınlarda henüz akıllı gözlük tespit edilmediğini belirten bir kuş görürsünüz. Yakınlarda bir akıllı gözlük olduğunda kuş belirgin şekilde değişir.</string>
+    <string name="titleCanaryMode">Kanarya Modu</string>
+</resources>

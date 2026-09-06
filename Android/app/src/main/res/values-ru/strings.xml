@@ -84,7 +84,7 @@
             Copyright The Android Open Source Project<br/>
             Лицензия Apache License, Version 2.0<br/>
          <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
-         Участники вне GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+         Участники вне GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L., sublognot<br/>
          <br/>
          <br/>
          ✊🏼 resist (Ai)<br/><br/><br/>]]></string>
@@ -101,6 +101,7 @@
         <item>Португальский (Бразилия)</item>
         <item>Итальянский</item>
         <item>Русский</item>
+		<item>Турецкий</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -113,6 +114,7 @@
         <item>pt-BR</item>
         <item>it</item>
         <item>ru</item>
+		<item>tr</item>
     </string-array>
     <string name="notifyText">⚠️ Поблизости, возможно, есть умные очки</string>
     <string name="channel_detection_name">Оповещения об обнаружении умных очков</string>

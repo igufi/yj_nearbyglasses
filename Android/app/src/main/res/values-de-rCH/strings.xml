@@ -2,7 +2,7 @@
 <resources>
     <!-- for menu, settings, buttons -->
     <string name="app_name">Nearby Glasses</string>
-    <string name="settings">Iistellige</string>
+    <string name="settings">Iischtellige</string>
     <string name="notLogging">Protokoll deaktiviert. Numme Benochrichtigunge wärde aazeigt, wenn öbbis entdeckt isch worde.</string>
     <string name="startScanning">Scanne schtarte</string>
     <string name="stopScanning">Scanne schtoppe</string>
@@ -83,7 +83,7 @@
     Lizenziert unter dr Apache-Lizenz, Version 2.0<br/>
     <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
 	<br/>
-	Mitwirkendi absyts vo GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+	Mitwirkendi absyts vo GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L., sublognot<br/>
     <br/>
     ✊🏼 resist (Ai)<br/><br/><br/>]]></string>
     <string name="pref_language_title">Sproch</string>
@@ -99,6 +99,7 @@
         <item>Portugiesisch (Brasilie)</item>
         <item>Italienisch</item>
         <item>Russisch</item>
+		<item>Türkisch</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -111,6 +112,7 @@
         <item>pt-BR</item>
         <item>it</item>
         <item>ru</item>
+		<item>tr</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Smart Glasses sind villicht in dr Neechi</string>

@@ -83,7 +83,7 @@
     Lizenziert unter der Apache-Lizenz, Version 2.0<br/>
     <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
 	<br/>
-	Mitwirkende jenseits von GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+	Mitwirkende jenseits von GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L., sublognot <br/>
     <br/>
 	✊🏼 resist (Ai)<br/><br/><br/>]]></string>
     <string name="pref_language_title">Sprache</string>
@@ -99,6 +99,7 @@
         <item>Portugiesisch (Brasilien)</item>
         <item>Italienisch</item>
         <item>Russisch</item>
+		<item>Türkisch</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -111,6 +112,7 @@
         <item>pt-BR</item>
         <item>it</item>
         <item>ru</item>
+		<item>tr</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Smart Glasses befinden sich vielleicht in der Nähe</string>
