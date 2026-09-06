@@ -119,10 +119,11 @@ RSSI drops roughly according to<br/>
    - Swiss German
    - French
    - Spanish
-   - Chinese (partially)
+   - Chinese
    - Italian
-   - Portugese (Brazil)
-   - Russian (partially)
+   - Portuguese (Brazil)
+   - Russian
+   - Turkish
    - more to come, eventually ([support this project by contributing in your language!](https://github.com/yjeanrenaud/yj_nearbyglasses/issues/3))
 - Now the app icon's background is not transparent anymore
 - Now we scan for UUIDs, too
