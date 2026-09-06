@@ -1,0 +1,2 @@
+- added Turkish language file (thanks to @sublognot)
+- minor bugfixes
