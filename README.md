@@ -131,6 +131,7 @@ RSSI drops roughly according to<br/>
 - The edge-to-edge layout issue should be fixed from [v1.0.4](https://github.com/yjeanrenaud/yj_nearbyglasses/releases) onwards.
 - Newly licensed under AGPL 3.0
 - I decided to waive the CLA. After some discussions with people who knew more than me about collaborative projects, I gained the insight that this was an unnecessary step.
+- it's now got a slightly different icon to adhere to AGPL 3.0 more strictly.
 ## iOS and Android
 - Finally, after three weeks, the iOS port is available. It should work on most iPhones and iPads; even older ones (back to iOS 16). [Source code and project files are provided](/iOS/), too. The code is ugly and unorthodox. Many approaches are quick and dirty (e.g. I re-use the json files from the android localisation), but it is working so far. *Nearby Glasses* is availale via the [Apple App Store](https://apps.apple.com/us/app/nearby-glasses-original/id6761056896). (It's called original to make it distinguishable from those copycats). A .ipa is available for sideloading under [releases](https://github.com/yjeanrenaud/yj_nearbyglasses/releases).
   The iOS App is not working in the background, because I found no possibility to use something similar to `ForegroundServices` in order to permanently scan for BTLE ADV due to iOS restrictions. Hence, there's only a *Canary Mode* available in *Nearby Glasses* under iOS. If you know Swift and iOS better than me (which is likely), please contribute!
@@ -236,6 +237,6 @@ Please Note This app builds upon:
 - Everyone else who already provided feedback to the app!
 
 ## License and Credits
-**App Icon**: The icon is based on [Eyeglass icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/eyeglass)<br/>
+**App Icon**: The icon is based on <a href="https://www.svgrepo.com/svg/434090/glasses" title="Glasses SVG Vector">Glasses SVG Vector by sensa, licensed under CC0 1.0 Universal</a>.<br/><br/><br/>
 **License**:  This app *Nearby Glasses* is licensed under the [AGPL-3.0 license](LICENSE).<br/>
 **Canary**: The canary drawings are made by me and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). I provided them as raw svg files (done in [InkScape](https://inkscape.org/)) and converted to xml, obviously, for the app's resources<br/>
